@@ -21,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+package de.ricardoboss.plugins.weps;
 
 import com.sk89q.worldedit.bukkit.BukkitAdapter;
 import com.sk89q.worldedit.util.Location;
@@ -32,12 +33,6 @@ import com.sk89q.worldguard.protection.regions.RegionContainer;
 import com.sk89q.worldguard.protection.regions.RegionQuery;
 import org.bukkit.block.Sign;
 import org.bukkit.entity.Player;
-
-<<<<<<<HEAD
-
-=======
-        >>>>>>>e0cdfe4...Initial code check-in
-        package de.ricardoboss.plugins.weps;
 
 class WorldGuardPermissionChecker implements PermissionChecker {
     private final WorldGuard wg;

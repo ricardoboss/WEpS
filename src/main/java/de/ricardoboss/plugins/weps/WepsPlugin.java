@@ -21,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+package de.ricardoboss.plugins.weps;
 
 import org.bukkit.block.Block;
 import org.bukkit.block.Sign;
@@ -32,12 +33,6 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Logger;
-
-<<<<<<<HEAD
-
-=======
-        >>>>>>>e0cdfe4...Initial code check-in
-        package de.ricardoboss.plugins.weps;
 
 public class WepsPlugin extends JavaPlugin {
     private Logger logger;

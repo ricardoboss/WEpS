@@ -21,15 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+package de.ricardoboss.plugins.weps;
 
 import org.bukkit.block.Sign;
 import org.bukkit.entity.Player;
-
-<<<<<<<HEAD
-
-=======
-        >>>>>>>e0cdfe4...Initial code check-in
-        package de.ricardoboss.plugins.weps;
 
 public interface PermissionChecker {
     boolean canEditSign(Player player, Sign sign);
