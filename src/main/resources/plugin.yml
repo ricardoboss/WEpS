@@ -1,0 +1,15 @@
+name: WEpS
+version: 3.0
+author: ricardoboss
+
+api-version: 1.15
+
+main: de.ricardoboss.plugins.weps.WepsPlugin
+
+softdepend: [WorldGuard]
+
+commands:
+  /s:
+    description: Edit one line of a sign
+    usage: //s [<x> <y> <z>] <line> [text]
+    permission: weps.edit
